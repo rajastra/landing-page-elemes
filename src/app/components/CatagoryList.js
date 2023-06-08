@@ -46,7 +46,7 @@ export default function CatagoryList() {
       <h2 className='text-2xl text-[#333333] font-medium md:text-4xl md:leading-[50px] overflow-hidden'>
         Browse our Catagory
       </h2>
-      <p className='text-2xl text-[#8BAC3E] font-medium md:text-4xl md:leading-[50px]'>
+      <p className='text-2xl text-[#8BAC3E] font-medium md:text-4xl md:leading-[50px] mb-10'>
         Receipt
       </p>
       <Slider />

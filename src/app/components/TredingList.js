@@ -4,6 +4,10 @@ import pizzapaper from '@/public/pizzapaper.png';
 import pizzameat from '@/public/pizzameat.png';
 import salmonrol from '@/public/salmonrol.png';
 import donerkebab from '@/public/donerkebab.png';
+import choco from '@/public/choco.png';
+import dmilk from '@/public/dmilk.png';
+import dunicorn from '@/public/dunicorn.png';
+import kkebab from '@/public/kkebab.png';
 
 const TredingList = () => {
   const item = [
@@ -35,6 +39,34 @@ const TredingList = () => {
       image: salmonrol,
       bg: 'bg-[#F9EEF3]',
     },
+    {
+      title: 'Cupcake choco',
+      catagory: 'Cupcake',
+      rating: 4,
+      image: choco,
+      bg: 'bg-[#F0FEEB]',
+    },
+    {
+      title: 'Doughnut Milk',
+      catagory: 'Doughnut',
+      rating: 4,
+      image: dmilk,
+      bg: 'bg-[#F0FEEB]',
+    },
+    {
+      title: 'Doughnut Unicorn',
+      catagory: 'Doughnut',
+      rating: 4,
+      image: dunicorn,
+      bg: 'bg-[#F3F7D9]',
+    },
+    {
+      title: 'Kathi Kebab',
+      catagory: 'Kebab',
+      rating: 4,
+      image: kkebab,
+      bg: 'bg-[#EAEEFA]',
+    },
   ];
 
   return (
@@ -54,6 +86,11 @@ const TredingList = () => {
             color={item.bg}
           />
         ))}
+      </div>
+      <div className='flex justify-center items-center px-5 py-16'>
+        <button className='px-[30px] py-[10px] text-base bg-[#8BAC3E] hover:bg-[#6B8E23] rounded-[100px] text-white font-normal transition-all'>
+          All receipt
+        </button>
       </div>
     </section>
   );

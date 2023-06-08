@@ -30,7 +30,7 @@ const Header = () => {
             >
               Promotions
             </a>
-            <span className='absolute block top-[-15px] right-[-10px] bg-[#E7462D] px-2 py-1 text-white text-[8px] font-bold rounded-lg'>
+            <span className='absolute block top-[-15px] right-[-10px] bg-[#E7462D] hover:bg-red-600  px-2 py-1 text-white text-[8px] font-bold rounded-lg'>
               HOT
             </span>
           </li>
@@ -52,10 +52,10 @@ const Header = () => {
           </li>
         </ul>
         <div className='flex gap-2'>
-          <button className='hidden border-none lg:block text-sm font-medium'>
+          <button className='hidden border-none lg:block text-sm font-medium hover:text-gray-300 transition-all'>
             Masuk
           </button>
-          <button className='px-[18px] py-[10px] text-sm bg-[#8BAC3E] rounded-[100px] text-white font-normal'>
+          <button className='px-[18px] py-[10px] text-sm bg-[#8BAC3E] hover:bg-[#6B8E23] rounded-[100px] text-white font-normal transition-all'>
             Daftar Sekarang
           </button>
         </div>
