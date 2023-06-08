@@ -1,10 +1,10 @@
-# Elemes test
+# Auhor
 
-this is a test for elemes
+Raja Saputera
 
 ## Description
 
-This project is landing page for elemes test
+This project is landing page about food delivery service. This project is built using NextJS, ReactJS, TailwindCSS, and Font Awesome.
 
 ## Getting Started
 

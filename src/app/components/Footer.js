@@ -72,13 +72,17 @@ const Footer = () => {
             <div className='rounded-full text-[#8BAC3E] hover:bg-[#8BAC3E] hover:text-white px-2 py-2 grid place-content-center transition-all cursor-pointer'>
               <FontAwesomeIcon icon={faEnvelope} className='w-5 h-5' />
             </div>
-            <p>elemesid@gmail.com</p>
+            <p className='font-normal text-sm text-[#000000]'>
+              elemesid@gmail.com
+            </p>
           </div>
           <div className='flex items-center'>
             <div className='rounded-full text-[#8BAC3E] hover:bg-[#8BAC3E] hover:text-white px-2 py-2 grid place-content-center transition-all cursor-pointer'>
               <FontAwesomeIcon icon={faPhone} className='w-5 h-5' />
             </div>
-            <p>0888 1111 2222 </p>
+            <p className='font-normal text-sm text-[#000000]'>
+              0888 1111 2222{' '}
+            </p>
           </div>
         </div>
       </div>
