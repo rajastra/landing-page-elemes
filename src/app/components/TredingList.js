@@ -12,24 +12,28 @@ const TredingList = () => {
       catagory: 'Pizza',
       rating: 4,
       image: pizzapaper,
+      bg: 'bg-[#E6F3F5]',
     },
     {
       title: 'Pizza Meat',
       catagory: 'Pizza',
       rating: 3,
       image: pizzameat,
+      bg: 'bg-[#E6F3F5]',
     },
     {
       title: 'Doner Kebab',
       catagory: 'Kebab',
       rating: 5,
       image: donerkebab,
+      bg: 'bg-[#E6F3F5]',
     },
     {
       title: 'salmon Roll',
       catagory: 'salmon',
       rating: 4,
       image: salmonrol,
+      bg: 'bg-[#F9EEF3]',
     },
   ];
 
@@ -47,6 +51,7 @@ const TredingList = () => {
             catagory={item.catagory}
             rating={item.rating}
             image={item.image}
+            color={item.bg}
           />
         ))}
       </div>
