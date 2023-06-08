@@ -4,7 +4,7 @@ import React from 'react';
 const CatagoryItem = ({ icon, color, text, count }) => {
   return (
     <div
-      className={`${color} rounded-lg py-[30px] px-[81px] text-center flex justify-center items-center flex-col  transition-all`}
+      className={`${color} rounded-lg w-56 py-[30px] px-[81px] ml-0 mr-0 text-center flex justify-center items-center flex-col hover:scale-110  transition-all`}
     >
       <Image src={icon} alt={text} className='w-12 h-12 mb-6' />
       <p className='font-medium text-[#333333] text-base'>{text}</p>

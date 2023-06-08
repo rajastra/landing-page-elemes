@@ -5,6 +5,7 @@ import pizza from '@/public/pizza.png';
 import kebab from '@/public/kebab.png';
 import salmon from '@/public/salmon.png';
 import doughnut from '@/public/doughnut.png';
+import Slider from './Slider';
 
 export default function CatagoryList() {
   const catagory = [
@@ -42,21 +43,13 @@ export default function CatagoryList() {
 
   return (
     <section className='mt-20'>
-      <h2 className='text-2xl text-[#333333] font-medium'>
+      <h2 className='text-2xl text-[#333333] font-medium md:text-4xl md:leading-[50px] overflow-hidden'>
         Browse our Catagory
       </h2>
-      <p className='text-2xl text-[#8BAC3E] font-medium'>Receipt</p>
-      <div className='flex gap-5 mt-8'>
-        {catagory.map((item, index) => (
-          <CatagoryItem
-            key={index}
-            icon={item.icon}
-            color={item.color}
-            text={item.text}
-            count={item.count}
-          />
-        ))}
-      </div>
+      <p className='text-2xl text-[#8BAC3E] font-medium md:text-4xl md:leading-[50px]'>
+        Receipt
+      </p>
+      <Slider />
     </section>
   );
 }
