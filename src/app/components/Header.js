@@ -4,7 +4,7 @@ import logo from '@/public/elemes-logo.png';
 const Header = () => {
   return (
     <header>
-      <nav className='flex justify-between items-center h-[89px] px-8'>
+      <nav className='flex justify-between items-center h-[89px] px-8 lg:px-14'>
         <Image src={logo} alt='elemes logo' className='w-[136px] h-[36px]' />
         <ul className='list-none hidden md:flex md:gap-8'>
           <li>

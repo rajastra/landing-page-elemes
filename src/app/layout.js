@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body className={inter.className}>
         <Header />
-        <main className='px-8 py-11'>{children}</main>
+        <main className='px-8 py-11 md:py-0 lg:px-14'>{children}</main>
       </body>
     </html>
   );
